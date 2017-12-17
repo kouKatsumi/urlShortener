@@ -42,29 +42,26 @@ then repackaging is needed.
 
 ## Usage
 
-Service exposes POST endpoints for adding new music sheets. Separately or as a list in JSON.
+Service exposes POST endpoint for providing URL to be shortened.
 
-Example payload for input new sheet:
+Example payload:
 ```
-   {
-        "bookTitle": "title",
-        "page": 9,
-        "scale": "BASS"
-    }
+  www.google.com
 ```
-For list:
+Address to POST:
 ```
-POST <host>:<port>/sheets
+POST <host>:<port>/url
 ```
-And for single entries:
+
+In response message payload the shortened link will be present:
 ```
-POST <host>:<port>/sheets/sheet
+http://localhost:8090/url/aHR0cDovL3d3dy5nb29nbGUuY29tLw==
 ```
-To retrieve entries GET endpoints should be used:
-`GET <host>:<port>/sheets/<uuid>` for a details on sheet.
-`GET <host>:<port>/sheets/<uuid>/scale` for information about scale for sheet.
-`GET <host>:<port>/sheets?title=<title>` for all the sheets form a book with give title .
-`GET <host>:<port>/sheets?scale=<scale>` for all sheets with a given scale.
+
+To visit page use:
+`GET http://localhost:8090/url/aHR0cDovL3d3dy5nb29nbGUuY29tLw==`
+or open link in the browser.
+
 
 
 
