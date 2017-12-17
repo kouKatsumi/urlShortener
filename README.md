@@ -30,7 +30,7 @@ mvn clean package
 
 To start application use following command:
 ```
-java -jar target/sheet-storage-0.0.1-SNAPSHOT.jar
+java -jar target/url-shortener-0.0.1-SNAPSHOT.jar
 ```
 
 Jar needs to be build first.

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ada</groupId>
-    <artifactId>sheet-storage</artifactId>
+    <artifactId>url-shortener</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sheet-repo</name>
+    <name>url-shortener</name>
     <description>Demo project for Spring Boot with JPA and persisting H2 database</description>
 
     <parent>
