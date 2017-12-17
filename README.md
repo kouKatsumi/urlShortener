@@ -62,6 +62,18 @@ To visit page use:
 `GET http://localhost:8090/url/aHR0cDovL3d3dy5nb29nbGUuY29tLw==`
 or open link in the browser.
 
+## Current state
+Currently missing features:
+- tests
+- handling long urls
+- batch url processing
+
+## Future
+Things to be implemented in future:
+- tests
+- handling long urls
+- usage of NoSQL database
+- possibility to start service in a Docker container
 
 
 

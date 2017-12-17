@@ -1,4 +1,4 @@
-package com.ada.music.sheets;
+package com.ada.ulrShortener;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.utils;
+package com.ada.ulrShortener.utils;
 
 import static com.google.common.io.BaseEncoding.base64Url;
 

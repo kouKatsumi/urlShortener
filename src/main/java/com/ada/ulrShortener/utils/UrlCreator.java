@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.utils;
+package com.ada.ulrShortener.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ServerProperties;

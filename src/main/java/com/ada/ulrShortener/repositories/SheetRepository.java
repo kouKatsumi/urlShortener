@@ -1,7 +1,6 @@
-package com.ada.music.sheets.repositories;
+package com.ada.ulrShortener.repositories;
 
-import com.ada.music.sheets.domain.ShortUrl;
-import java.net.URL;
+import com.ada.ulrShortener.domain.ShortUrl;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

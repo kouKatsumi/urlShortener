@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.domain;
+package com.ada.ulrShortener.domain;
 
 import java.net.URL;
 import javax.persistence.Column;

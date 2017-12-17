@@ -1,10 +1,10 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.web;
+package com.ada.ulrShortener.web;
 
-import com.ada.music.sheets.service.ShertenedUrlsService;
-import com.ada.music.sheets.utils.UrlCreator;
+import com.ada.ulrShortener.service.ShertenedUrlsService;
+import com.ada.ulrShortener.utils.UrlCreator;
 import java.net.MalformedURLException;
 import java.util.concurrent.ExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +24,6 @@ class UrlController {
 
   private final ShertenedUrlsService service;
 
-  //  @Autowired
-//  ServerProperties env;
   @Autowired
   UrlCreator urlCreator;
 

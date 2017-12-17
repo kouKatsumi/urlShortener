@@ -1,15 +1,12 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.domain;
+package com.ada.ulrShortener.domain;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
@@ -22,11 +19,6 @@ public class ShortUrl implements MyUrl {
   @Id
   @Column(name = "url")
   private String url;
-
-//  @Id
-//  @Column(name = "id")
-//  @GeneratedValue(strategy = GenerationType.AUTO)
-//  private Long id;
 
   @JoinColumn(name="long_url")
   @OneToOne(cascade = CascadeType.ALL)

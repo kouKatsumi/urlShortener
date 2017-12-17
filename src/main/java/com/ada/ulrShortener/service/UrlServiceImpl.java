@@ -1,13 +1,13 @@
 /**
  * Copyright (C) 2017 Spotify AB
  */
-package com.ada.music.sheets.service;
+package com.ada.ulrShortener.service;
 
-import com.ada.music.sheets.domain.LongUrl;
-import com.ada.music.sheets.domain.MyUrl;
-import com.ada.music.sheets.domain.ShortUrl;
-import com.ada.music.sheets.repositories.SheetRepository;
-import com.ada.music.sheets.utils.UrlShortener;
+import com.ada.ulrShortener.domain.LongUrl;
+import com.ada.ulrShortener.domain.MyUrl;
+import com.ada.ulrShortener.domain.ShortUrl;
+import com.ada.ulrShortener.repositories.SheetRepository;
+import com.ada.ulrShortener.utils.UrlShortener;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.CompletableFuture;
